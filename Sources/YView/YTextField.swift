@@ -8,7 +8,7 @@
 #if os(iOS)
 import UIKit
 
-public class YTextField: UITextField {
+open class YTextField: UITextField {
 
 }
 #endif

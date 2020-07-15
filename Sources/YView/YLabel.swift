@@ -8,7 +8,7 @@
 #if os(iOS)
 import UIKit
 
-public class YLabel: UILabel {
+open class YLabel: UILabel {
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
