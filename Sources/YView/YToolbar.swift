@@ -8,7 +8,7 @@
 #if os(iOS)
 import UIKit
 
-class YToolbar: UIToolbar {
+public class YToolbar: UIToolbar {
 
 }
 #endif

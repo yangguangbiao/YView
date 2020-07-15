@@ -8,7 +8,7 @@
 #if os(iOS)
 import UIKit
 
-class YTableView: UITableView {
+public class YTableView: UITableView {
 
 }
 #endif

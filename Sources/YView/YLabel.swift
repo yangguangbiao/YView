@@ -8,13 +8,13 @@
 #if os(iOS)
 import UIKit
 
-class YLabel: UILabel {
+public class YLabel: UILabel {
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     

@@ -10,7 +10,7 @@ import UIKit
 
 open class YView: UIView {
     
-    override init(frame: CGRect) {
+    open override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = .white
         clipsToBounds = true
@@ -18,7 +18,7 @@ open class YView: UIView {
         setUI()
     }
     
-    required init?(coder: NSCoder) {
+    open required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     

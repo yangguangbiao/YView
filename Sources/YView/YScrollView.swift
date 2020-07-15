@@ -8,7 +8,7 @@
 #if os(iOS)
 import UIKit
 
-class YScrollView: UIScrollView {
+public class YScrollView: UIScrollView {
 
 
 }
