@@ -9,7 +9,7 @@
 #if os(iOS)
 import UIKit
 
-class YButton: UIButton {
+open class YButton: UIButton {
     
     override init(frame: CGRect) {
         super.init(frame: frame)

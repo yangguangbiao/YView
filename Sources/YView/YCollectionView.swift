@@ -9,8 +9,8 @@
 #if os(iOS)
 import UIKit
 
-class YCollectionView: UICollectionView {
-
+open class YCollectionView: UICollectionView {
+    
 
 }
 #endif

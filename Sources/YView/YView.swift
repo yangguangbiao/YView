@@ -8,7 +8,7 @@
 #if os(iOS)
 import UIKit
 
-class YView: UIView {
+open class YView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)

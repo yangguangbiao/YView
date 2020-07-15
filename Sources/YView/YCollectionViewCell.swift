@@ -9,7 +9,7 @@
 #if os(iOS)
 import UIKit
 
-class YCollectionViewCell: UICollectionViewCell {
+open class YCollectionViewCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = .white
